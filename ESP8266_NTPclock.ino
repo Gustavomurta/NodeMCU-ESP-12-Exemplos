@@ -9,8 +9,8 @@
 #include <ESP8266WiFi.h>        // Biblioteca https://github.com/esp8266/Arduino/tree/master/libraries/ESP8266WiFi
 #include <WiFiUdp.h>            // Biblioteca https://github.com/esp8266/Arduino/tree/master/libraries/ESP8266WiFi
 
-const char *ssid     = "beloca";       // nome do seu roteador WIFI (SSID)
-const char *password = "a1b2c3d4e5";   // senha do roteador WIFI
+const char *ssid     = "roteador WIFI";       // nome do seu roteador WIFI (SSID)
+const char *password = "senha do WIFI";   // senha do roteador WIFI
 
 WiFiUDP ntpUDP;
 // Definindo o Servidor de relogio da WEB Brasil, ajusta relogio GNT -3 horas, intervalo de atualizacao em milisegundos
