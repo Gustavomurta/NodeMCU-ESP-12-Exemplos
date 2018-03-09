@@ -2,7 +2,7 @@
     Arduino IDE 1.8.5 - ESP8266
     Gustavo Murta   08/mar/2018
     baseado em https://github.com/arduino-libraries/NTPClient/blob/master/examples/Advanced/Advanced.ino
-    Blog Eletrogate
+    Blog Eletrogate http://blog.eletrogate.com/nodemcu-esp12-usando-arduino-ide-2/
 */
 
 #include <NTPClient.h>          // Biblioteca https://github.com/arduino-libraries/NTPClient
