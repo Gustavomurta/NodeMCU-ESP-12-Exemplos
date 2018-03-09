@@ -1,4 +1,4 @@
-/*  ESP822 acessando o relógio da WEB
+/*  NodeMCU ESP-12 acessando o relógio da WEB
     Arduino IDE 1.8.5 - ESP8266
     Gustavo Murta   08/mar/2018
     baseado em https://github.com/arduino-libraries/NTPClient/blob/master/examples/Advanced/Advanced.ino
