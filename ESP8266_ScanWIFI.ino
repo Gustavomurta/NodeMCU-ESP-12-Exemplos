@@ -2,7 +2,7 @@
     Arduino IDE 1.8.5 - ESP8266
     Gustavo Murta   07/mar/2018
     baseado em https://arduino-esp8266.readthedocs.io/en/2.4.0/esp8266wifi/scan-class.html
-    Blog Eletrogate 
+    Blog Eletrogate http://blog.eletrogate.com/nodemcu-esp12-usando-arduino-ide-2/
 */
 
 #include "ESP8266WiFi.h"
