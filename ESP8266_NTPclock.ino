@@ -13,7 +13,7 @@ const char *ssid     = "roteador WIFI";       // nome do seu roteador WIFI (SSID
 const char *password = "senha do WIFI";       // senha do roteador WIFI
 
 WiFiUDP ntpUDP;
-// Definindo o Servidor de relogio da WEB Brasil, ajusta relogio GNT -3 horas, intervalo de atualizacao em milisegundos
+// Definindo o Servidor de relogio da NTP Brasil, ajusta relogio UTC -3 horas, intervalo de atualizacao em milisegundos
 NTPClient timeClient(ntpUDP, "gps.ntp.br", -3 * 3600, 60000);
 
 void setup()
