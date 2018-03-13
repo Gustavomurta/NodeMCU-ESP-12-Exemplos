@@ -109,7 +109,7 @@ void loop()
 
     while (numNewMessages)                  // numero de novas mensagens
     {
-      Serial.println("recebeu resposta do Telegram");
+      Serial.println("Resposta recebida do Telegram");
       handleNewMessages(numNewMessages);
       numNewMessages = bot.getUpdates(bot.last_message_received + 1);
     }
