@@ -15,7 +15,7 @@ char ssid[] = "roteador WIFI";           // nome do seu roteador WIFI (SSID)
 char password[] = "senha do WIFI";       // senha do roteador WIFI
 
 // Inicializa o BOT Telegram - copie aqui a chave Token quando configurou o seu BOT - entre aspas
-#define BOTtoken "528420337:AAHLwwVuklQ2P8mbUh5-7CdIgq7mSzy5uYI"  // sua chave Token Bot
+#define BOTtoken "123456789:ABCDEFGHIJKLMOPQRST-ABCDEFGHIJKLMNO"  // sua chave Token Bot
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
