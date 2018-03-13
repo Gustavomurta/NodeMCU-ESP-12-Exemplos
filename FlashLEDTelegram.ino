@@ -11,8 +11,8 @@
 #include <UniversalTelegramBot.h>
 
 // Inicializando a conexao WIFI com o Roteador
-char ssid[] = "beloca";           // nome do seu roteador WIFI (SSID)
-char password[] = "a1b2c3d4e5";   // senha do roteador WIFI
+char ssid[] = "roteador WIFI";           // nome do seu roteador WIFI (SSID)
+char password[] = "senha do WIFI";   // senha do roteador WIFI
 
 // Inicializa o BOT Telegram - copie aqui a chave Token quando configurou o seu BOT - entre aspas
 #define BOTtoken "528420337:AAHLwwVuklQ2P8mbUh5-7CdIgq7mSzy5uYI"  // sua chave Token Bot
