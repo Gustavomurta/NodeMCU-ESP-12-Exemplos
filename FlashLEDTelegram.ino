@@ -82,7 +82,7 @@ void setup() {
   WiFi.disconnect();            // desconecta o WIFI
   delay(100);                   // atraso de 100 milisegundos
 
-  Serial.print("Connecting Wifi: ");
+  Serial.print("Conectando Wifi: ");
   Serial.println(ssid);
   WiFi.begin(ssid, password);
 
@@ -92,7 +92,7 @@ void setup() {
     delay(500);                           // atraso de 0,5 segundos
   }
   Serial.println("");
-  Serial.println("WiFi connected");       // WIFI conectado
+  Serial.println("WiFi conectado");       // WIFI conectado
   Serial.print("IP address: ");
   Serial.println(WiFi.localIP());
 
