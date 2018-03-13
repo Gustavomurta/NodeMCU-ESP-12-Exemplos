@@ -29,7 +29,7 @@ int ledStatus = 0;
 
 void handleNewMessages(int numNewMessages)
 {
-  Serial.println("handleNewMessages");
+  Serial.print("Mensagem recebida = ");
   Serial.println(String(numNewMessages));
 
   for (int i = 0; i < numNewMessages; i++)
