@@ -65,7 +65,7 @@ void handleNewMessages(int numNewMessages)
     
     if (text == "/start")                                  // comando comeca
     {
-      String welcome = "Benvindo a Biblioteca Universal Arduino Telegram Bot, " + from_name + ".\n";
+      String welcome = "Bem-vindo a Biblioteca Universal Arduino Telegram Bot, " + from_name + ".\n";
       welcome += "Esse é um exemplo de controle do Led.\n\n";
       welcome += "/ledon : para acender o LED\n";
       welcome += "/ledoff : para apagar o LED\n";
