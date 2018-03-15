@@ -2,8 +2,10 @@
 /*  ESP822 - Flash LED com Telegram
     Arduino IDE 1.8.5 - ESP8266
     Gustavo Murta   13/mar/2018
-    baseado em https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examples/ESP8266/FlashLED/FlashLED.ino
-    Blog Eletrogate http://blog.eletrogate.com/nodemcu-esp12-alarme-residencial-iot-3/
+    Baseado em:
+    https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examples/ESP8266/FlashLED/FlashLED.ino
+    Blog Eletrogate:
+    http://blog.eletrogate.com/nodemcu-esp12-alarme-residencial-iot-3/
     
     Você pode copiar, distribuir e modificar o software desde que as modificações sejam descritas e licenciadas gratuitamente em LGPL-3.
     As obras derivadas (incluindo modificações ou qualquer coisa vinculada estaticamente à biblioteca) só podem ser redistribuídas no LGPL-3,
