@@ -25,8 +25,8 @@ char password[] = "senha do WIFI";    // senha do roteador WIFI
 // Inicializa o BOT Telegram - copie aqui a chave Token quando configurou o seu BOT - entre aspas
 #define BOT_TOKEN "123456789:ABCDEFGHIJKLMOPQRST-ABCDEFGHIJKLMNO"          // sua chave Token Bot
 
-#define CHAT_ID "157461061" // Para obter o Chat ID, acesse Telegram => usuario IDBot => comando /getid
-
+#define CHAT_ID "123456789" // Para obter o Chat ID, acesse Telegram => usuario IDBot => comando /getid
+               
 // cliente SSL necessario para a Biblioteca
 WiFiClientSecure client;
 
