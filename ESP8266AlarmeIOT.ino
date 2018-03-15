@@ -17,13 +17,13 @@
 #include <WiFiClientSecure.h>
 
 // Configurando a conexao WIFI com o Roteador
-char ssid[] = "beloca";            // nome do seu roteador WIFI (SSID)
-char password[] = "a1b2c3d4e5";    // senha do roteador WIFI
+char ssid[] = "roteador WIFI";        // nome do seu roteador WIFI (SSID)
+char password[] = "senha do WIFI";    // senha do roteador WIFI
 
-#define TELEGRAM_SENSOR_PIN D5     // Sensor de disparo do alarme => D5 = GPIO_14
+#define TELEGRAM_SENSOR_PIN D5       // Sensor de disparo do alarme => D5 = GPIO_14
 
 // Inicializa o BOT Telegram - copie aqui a chave Token quando configurou o seu BOT - entre aspas
-#define BOT_TOKEN "528420337:AAHLwwVuklQ2P8mbUh5-7CdIgq7mSzy5uYI"          // sua chave Token Bot
+#define BOT_TOKEN "123456789:ABCDEFGHIJKLMOPQRST-ABCDEFGHIJKLMNO"          // sua chave Token Bot
 
 #define CHAT_ID "157461061" // Para obter o Chat ID, acesse Telegram => usuario IDBot => comando /getid
 
